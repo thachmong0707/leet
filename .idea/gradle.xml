@@ -4,12 +4,11 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="/opt/gradle/gradle-6.7" />
         <option name="modules">
           <set>
-            <option value="/data/zproject/LeetCode" />
+            <option value="$USER_HOME$/Documents/zproject/leet" />
           </set>
         </option>
       </GradleProjectSettings>
