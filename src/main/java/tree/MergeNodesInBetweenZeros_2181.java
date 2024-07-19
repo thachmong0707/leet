@@ -1,6 +1,6 @@
 package tree;
 
-public class MergeNodesInBetweenZeros_2181 {
+public class MergeNodesInBetweenZeros_2181 extends BaseListNode {
     public ListNode mergeNodes(ListNode head) {
         ListNode cursor = head;
         while (cursor != null && cursor.next != null) {
@@ -31,20 +31,4 @@ public class MergeNodesInBetweenZeros_2181 {
         }
     }
 
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 }

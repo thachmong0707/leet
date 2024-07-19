@@ -1,6 +1,6 @@
 package tree;
 
-public class MergeTwoSortedLists_21 {
+public class MergeTwoSortedLists_21 extends BaseListNode {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         if (list1 == null) {
             return list2;
@@ -34,20 +34,5 @@ public class MergeTwoSortedLists_21 {
         return list1;
     }
 
-    public class ListNode {
-        int val;
-        ListNode next;
 
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 }
